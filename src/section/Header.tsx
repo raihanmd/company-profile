@@ -16,7 +16,7 @@ export default function Header() {
       <Wave
         fill={COLOR.SECOND}
         paused={false}
-        style={{ position: "absolute", transform: "rotate(180deg)", zIndex: "1", marginTop: "-40px" }}
+        style={{ position: "absolute", transform: "rotate(180deg)", zIndex: "1" }}
         options={{
           amplitude: 40,
           speed: 0.2,
@@ -26,11 +26,11 @@ export default function Header() {
       <Wave
         fill={COLOR.THIRD}
         paused={false}
-        style={{ position: "absolute", transform: "rotate(180deg)" }}
+        style={{ position: "absolute", transform: "rotate(180deg)", marginTop: "40px" }}
         options={{
           amplitude: 60,
           speed: 0.1,
-          points: 8,
+          points: 4,
         }}
       />
     </>
